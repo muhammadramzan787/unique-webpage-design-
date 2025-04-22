@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 90%;
+    height: auto;
+    margin-left: 90px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.navbar {
+    max-height: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    font-size: x-large;
+}
+
+.navbar ul li {
+    list-style: none;
+  }
+
+.navbutton button {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.herocontent {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: px;
+}
+
+.hero h1 {
+    font-size:90px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.herobtn {
+    
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+.logos{
+   margin: 80px;
+}
+.services{
+    margin: 100px;
+}
+.service{
+    display: flex;
+    text-align: center;
+    text-decoration: row;
+    row-gap: 40px;
+}
+.service p {
+    font-size: small;
+    width: 500px;
+}
+.services2{
+    margin: 100px;
+}
+.services2{
+    display: flex;
+    text-align: center;
+    text-decoration: row;
+    row-gap: 40px;
+}
+.contact{
+    margin: 100px;
+    display: flex;
+    text-align: center;
+    text-decoration: row;
+    row-gap: 40px;
+}
+.contactblock{
+    margin: 100px;
+}
